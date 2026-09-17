@@ -1,0 +1,7 @@
+# Direct dependencies used for the initial Python 3.10 / Ubuntu 24.04 validation.
+# Use with: python -m pip install -c requirements-tested.txt '.[dev]'
+numpy==1.26.4
+scipy==1.15.3
+open3d==0.19.0
+matplotlib==3.10.9
+tqdm==4.70.1

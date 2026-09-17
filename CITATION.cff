@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use these metrics, please cite the LiDAR-VGGT paper."
+title: Color-Map-Evaluation
+type: software
+version: 0.1.0
+url: https://github.com/NorwegianSmokedSalmon/Color-Map-Evaluation
+authors:
+  - name: Color-Map-Evaluation contributors
+preferred-citation:
+  type: article
+  title: "LiDAR-VGGT: Cross-Modal Coarse-to-Fine Fusion for Globally Consistent and Metric-Scale Dense Mapping"
+  authors:
+    - family-names: Wang
+      given-names: Lijie
+    - family-names: Guo
+      given-names: Lianjie
+    - family-names: Xu
+      given-names: Ziyi
+    - family-names: Wang
+      given-names: Qianhao
+    - family-names: Gao
+      given-names: Fei
+    - family-names: Chen
+      given-names: Xieyuanli
+  year: 2026
+  journal: IEEE Robotics and Automation Letters
+  volume: "11"
+  issue: "4"
+  start: "4721"
+  end: "4728"
+  doi: 10.1109/LRA.2026.3666387
+  url: https://ieeexplore.ieee.org/abstract/document/11399876

@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "color-map-evaluation"
+version = "0.1.0"
+description = "Color Distance, Color Fidelity, Local Color Recall and Color Consistency Score for colored point clouds"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "numpy>=1.26,<2",
+  "scipy>=1.11,<2",
+  "open3d>=0.19,<0.20",
+  "tqdm>=4.66,<5",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Image Processing",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.8,<4"]
+dev = ["build>=1.2", "matplotlib>=3.8,<4"]
+
+[project.scripts]
+color-map-align = "color_map_evaluation.alignment:main"
+color-map-evaluate = "color_map_evaluation.cli:main"
+color-map-cd = "color_map_evaluation.color_distance:main"
+color-map-lcr = "color_map_evaluation.lcr:main"
+color-map-ccs = "color_map_evaluation.ccs:main"
+
+[project.urls]
+Repository = "https://github.com/NorwegianSmokedSalmon/Color-Map-Evaluation"
+Paper = "https://ieeexplore.ieee.org/abstract/document/11399876"
+Issues = "https://github.com/NorwegianSmokedSalmon/Color-Map-Evaluation/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]

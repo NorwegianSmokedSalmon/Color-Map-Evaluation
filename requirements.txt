@@ -1,0 +1,2 @@
+# Install the local package and its declared runtime dependencies.
+.

@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+outputs/
+results/
+examples/data/
+*.log
+.DS_Store
+
+# Local environments, editor settings, and point-cloud datasets
+.env
+.env.*
+!.env.example
+.venv*/
+.vscode/
+.idea/
+*.bag
+*.pcd
+*.ply

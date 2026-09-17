@@ -1,0 +1,21 @@
+{
+  "map": "data/reconstruction.ply",
+  "reference": "data/reference.ply",
+  "metrics": ["cd", "cf", "lcr", "ccs"],
+  "map_transform": null,
+  "roi": null,
+  "tau": 0.1,
+  "radius": 0.5,
+  "ccs_voxel_size": 0.1,
+  "voxel_origin": [0, 0, 0],
+  "singleton_policy": "zero",
+  "threads": 8,
+  "batch_size": 4096,
+  "progress": true,
+  "visualization_max_points": 200000,
+  "visualization_seed": 0,
+  "cd_display_max": 1.0,
+  "ccs_display_max": 0.1,
+  "output": "../results/toy/metrics.json",
+  "visualization_dir": "../results/toy/visualizations"
+}

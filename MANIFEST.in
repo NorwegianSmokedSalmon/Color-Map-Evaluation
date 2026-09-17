@@ -1,0 +1,5 @@
+include requirements.txt requirements-tested.txt CITATION.cff README.zh-CN.md
+include cal_cis.py cal_lccr.py cal_colordist.py
+recursive-include docs *.md *.png
+recursive-include examples *.py *.json
+recursive-include tests *.py
